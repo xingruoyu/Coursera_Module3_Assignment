@@ -1,4 +1,21 @@
-# Variables
+# Code Book
+This code book explains the construction of the run_analysis.R script.
+
+## before using the script
+Make sure that the dataset is saved under the folder name "UCI_HAR_Dataset" in your directory
+
+## Study design
+- Import test data, subject id, feature(variable names) dataset into data frames
+- Combine the above 3 dataset into one
+- Perform same procedures to the train datasets
+- Combine test and train dataset
+- Extract dataset with variables with string "mean" and "std"
+- Replaced activity IDs with the activity labels for readability
+- Group the dataset based on subject IDs and activity
+- Calculate mean for the new dataset, saving under "result"
+- Write the "result" as "tidy.txt" as final output
+
+## Here is a list of variables that are found in the output tidy.txt file
 - subject (ID of the test/train subject from 01-30)
 - activity (6 different types of activities)
 - tBodyAcc.mean...X
