@@ -9,8 +9,8 @@ It was manually downloaded and unzipped. ReadMe file from the dataset describes 
 In this assignment, 3 files were submitted for peer grading:
 
 - [README.md](https://github.com/xingruoyu/Coursera_Module3_Assignment/blob/master/README.md)
-- [run_analysis.R]()
-- [CodeBook.md]()
+- [run_analysis.R](https://github.com/xingruoyu/Coursera_Module3_Assignment/blob/master/run_analysis.R)
+- [CodeBook.md](https://github.com/xingruoyu/Coursera_Module3_Assignment/blob/master/CodeBook.md)
 
 # Instruction/How to use the script
 - Download the dataset, save and unzip under your direcoty
