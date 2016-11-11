@@ -12,7 +12,6 @@
 # 4) Appropriately labels the data set with descriptive variable names.
 # 5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-
 # set working directory
 setwd("~/UCI_HAR_Dataset")
 
@@ -59,8 +58,7 @@ library(dplyr)
 select <- grep(("mean|std"), tolower(feature[,2]))+2
 data_select <- select(data, subject, activity, select)
 
-rm("feature")
-rm("data","select")
+rm("feature","data","select")
 
 ###############
 # 3) Uses descriptive activity names to name the activities in the data set
@@ -86,4 +84,3 @@ data_select %>% summarize_each(funs(mean(., na.rm=TRUE))) -> result
 
 # write result into "tidy.txt"
 write.table(result, "tidy.txt", row.names = FALSE, quote = FALSE)
-
