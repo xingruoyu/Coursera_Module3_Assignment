@@ -12,13 +12,14 @@ In this assignment, 3 files were submitted for peer grading:
 - [run_analysis.R](https://github.com/xingruoyu/Coursera_Module3_Assignment/blob/master/run_analysis.R)
 - [CodeBook.md](https://github.com/xingruoyu/Coursera_Module3_Assignment/blob/master/CodeBook.md)
 
-# Instruction/How to use the script
+# How to check result "tidy.txt"
+use command: read.table("tidy.txt", header = TRUE)
+
+# Dependencies
 - Download the dataset, save and unzip under your direcoty
   Do not change the name of the data folder, it should remain "UCI_HAR_Dataset"
 - Open the script "run_analysis.R" in R studio and run
-
-# Dependencies
-The R script assumes that the dplyr package was installed.
+- The R script assumes that the dplyr package was installed.
 
 # More information
 You can find more info about this assignment from [here](https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project).
